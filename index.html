@@ -1,46 +1,171 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<head>
-  <meta charset="UTF-8">
-  <title>Sally HTML Bio</title>
-</head>
+<!DOCTYPE HTML>
+<!--
+	Multiverse by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>FX Coding Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script type="text/javascript" src="assets/js/anime.min.js"></script>
+	</head>
+	<body class="is-preload">
+		
+		
+		<div class="container"></div>
 
-<body>
-  <h1>Welcome to Sally's Bio Page!</h1>
-  <p><i>Sorry, Sally had taken over </i></p>
-  <div = "Sally_Pic">
-    <h2><u>This is Sally</u></h2>
-    <img width="200" src="https://static.wikia.nocookie.net/line/images/a/af/Image-1.jpg" alt="Sally">
+		<!-- Slideshow container -->
+<div class="slideshow-container">
 
-    </div>
-  <hr>
-  <p> Sally(サリー Sarī)is a female chick who is the fifth main member of LINE friends. She is Brown's tag-along buddy who also see's her as the little sister he never had. </p>
-  <p>Although she is naive, Sally can be quite clever sometimes. Furthermore, she is also a bit cunning because of the lack of attention from her friends, such as sticking close to brown bear because she see's him as the big brother she never. </p>
-  <a href="https://store.linefriends.com/collections/sally">Get some Sally Merch here!</a>
-  <hr>
+	<!-- Full-width images with number and caption text -->
+	<div class="mySlides fade">
+	  <div class="numbertext">1 / 6</div>
+	  <img src="https://cdn.shopify.com/s/files/1/0231/6137/2752/files/bf-sally_1600x.jpg?v=1563922142" style="width:100%">
+	  <div class="text">Hi, This is Sally and here is where I showcase coding challenges and projects I have completed.
+		  More to come! 
+	  </div>
+	</div>
+  
+	<div class="mySlides fade">
+		<div class="numbertext">2 / 6</div>
+		<img src="/images/ETLproject.gif" style="width:100%">
+		<div class="text">Extract, Load and Transformed Data from a local car dealership and finder.com.au
+			To Analyse between comparison loans provided by car dealer and financial institution. 
+			<a href="https://github.com/foofx88/ETL-Financing-Used-Cars/blob/main/ETLProject-Financing_Used_Car_Report.docx" target="_blank">Read the report...</a></div>
+	</div>
+	
+	<div class="mySlides fade">
+		<div class="numbertext">3 / 6</div>
+0		<img src="/images/leafletdemo.gif" style="width:100%">
+		<div class="text">Read Earthquake data from UGSS in GeoJson format using D3 and added layers
+			onto the map using Leaflet. <br><a href="https://github.com/foofx88/leaflet-challenge" target="_blank">Look at this...</a></div>
+		
+	</div>
+	
+	<div class="mySlides fade">
+		<div class="numbertext">4 / 6</div>
+		<img src="/images/plotly.gif" style="width:100%">
+		<div class="text">Utilising Plotly to create interactive charts after reading json data with D3
+			The charts would change according to which Subject ID is chosen.
+		<a href="https://foofx88.github.io/plotly-challenge/" target="_blank">Explore this </a>
+		or <a href="https://github.com/foofx88/plotly-challenge" target="_blank">Look at how it's done...</a></div>
+	</div>
+	
+	<div class="mySlides fade">
+		<div class="numbertext">5 / 6</div>
+		<img src="/images/scatterplot.gif" style="width:100%">
+		<div class="text">Utilising D3, users are able to interact with the scatter plot by 
+			selecting the X and Y Axis Labels and the Scatter plot would change dynamically 
+			after fetching the appropriate data. 
+			<a href="https://foofx88.github.io/d3-challenge/" target="_blank">Explore this</a>
+			or <a href="https://github.com/foofx88/d3-challenge" target="_blank">Look at how it's done...</a></div>
+	</div>
 
-  <div ="Sally_facts">
-      <ul> <b>Facts about Sally</b>
-      <li>Sally is a Chick</li>
-      <li>Sally is a Brown Collector</li>
-      <li>Sally birthday is on the 27th of April</li>
-      <li>Sally's favorite food is activity is sleeping</li>
-      </ul>
-      </div>
+	<div class="mySlides fade">
+		<div class="numbertext">6 / 6</div>
+		<img src="/images/newyorknewyork.gif" style="width:100%">
+		<div class="text">Group project on New York State's State Park Attendance. Used Leaflet, D3, Plotly and ChartJS for
+			the charts visualisation. The site is then deployed to Heroku. <a href="https://newyork-newyork.herokuapp.com/" target="_blank">Go to the site</a>
+			or <a href="https://github.com/foofx88/project2-group3" target="_blank">Look at how it's done...</a>
+		</div>
+	</div>
 
-<hr>
-      <div ="Sally_friends">
-      <table border="1px">
-        <th colspan='2'>Sally's Friends</th>
-        <tr><td>Elly</td><td>Looks up to Sally</td></tr>
-        <tr><td>Louie</td><td>Has a Crush on Sally</td></tr>
-        <tr><td>Ari</td><td>Just wants to eat everything</td></tr>
-        </table> </div>
-</body>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<a href="https://www.google.com" target ="_self" >I seen enough, get me outta here!</a>
+	<!-- Next and previous buttons -->
+	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+	<span class="dot" onclick="currentSlide(1)"></span>
+	<span class="dot" onclick="currentSlide(2)"></span>
+	<span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+		
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h2><a href="index.html"><strong>FX Foo</strong></a><br>An Aspiring Data Analyst</h2>
+						
+						<nav>
+							<ul>
+								<li><a href="#footer" class="icon solid fa-info-circle">About</a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+						
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer" class="panel">
+						<div class="inner split">
+							<div>
+								<section>
+									<h2>A little about myself..</h2>
+									<p>Currently based in Perth, Australia. Working as an IT Support Engineer. 
+										I would one day hope to work as a Data Analyst / Developer. 
+										I have undertook a Data Analysis Course with the University of Western Australia in 2021.
+										This page show case the projects and challenges that I've been thrown in the last 6 months of the course. 	
+									</p>
+								</section>
+								<section>
+									<h2>Let's Connect.. </h2>
+									<ul class="icons">
+										<li><a href="https://www.instagram.com/f2xuan/?hl=en" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+										<li><a href="https://github.com/foofx88" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+										<li><a href="https://www.linkedin.com/in/distinctivefx/" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
+									</ul>
+									<p class="multiverse">A Modified version of Multiverse -<a href="https://html5up.net/">HTML5 UP</a></p>
+								</section>
+							
+							</div>
+							<div>
+								<section>
+									<h2>Send me an Email..</h2>
+									<form method="post" action="mailto:fangxuan.foo@gmail.com">
+										<div class="fields">
+											<div class="field half">
+												<input type="text" name="name" id="name" placeholder="Name" />
+											</div>
+											<div class="field half">
+												<input type="text" name="email" id="email" placeholder="Email" />
+											</div>
+											<div class="field">
+												<textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+							</div>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/app.js"></script>
+
+	</body>
+</html>
