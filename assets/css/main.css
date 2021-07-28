@@ -2083,10 +2083,10 @@ input, select, textarea {
 
 		/* Slideshow container */
 		.slideshow-container {
-		  max-width: 600px;
-		  max-height: 150px;
+		  max-width: 700px;
+		  max-height: 180px;
 		  position: fixed;
-		  padding-bottom:30vw;
+		  padding-bottom:35vw;
 		  padding-left:5px;
 		}
 		
