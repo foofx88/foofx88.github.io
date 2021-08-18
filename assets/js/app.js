@@ -10,10 +10,10 @@ function animateBlock() {
     anime({
         targets: '.block',
         translateX: function(){
-            return anime.random(-700, 700);
+            return anime.random(-1000, 1000);
         },
         translateY: function(){
-            return anime.random(-500, 500);
+            return anime.random(-700, 700);
         },
         scale: function(){
             return anime.random(1, 5);
