@@ -1,6 +1,6 @@
 const container = document.querySelector('.container');
 
-for (var i = 0; i <=100; i++){
+for (var i = 0; i <=128; i++){
 const blocks = document.createElement('div');
 blocks.classList.add('block');
 container.appendChild(blocks);
@@ -13,7 +13,7 @@ function animateBlock() {
             return anime.random(-1200, 1200);
         },
         translateY: function(){
-            return anime.random(-700, 700);
+            return anime.random(-600, 600);
         },
         scale: function(){
             return anime.random(1, 5);
