@@ -10,7 +10,7 @@ function animateBlock() {
     anime({
         targets: '.block',
         translateX: function(){
-            return anime.random(-1000, 1000);
+            return anime.random(-1300, 1300);
         },
         translateY: function(){
             return anime.random(-700, 700);
@@ -20,7 +20,7 @@ function animateBlock() {
         },
         easing: 'linear',
         duration: 5000,
-        delay: anime.stagger(10),
+        delay: anime.stagger(5),
         complete: animateBlock,
     }) 
 }
