@@ -1465,7 +1465,7 @@ input, select, textarea {
 		justify-content: center;
 		align-items: center;
 		min-height: 100vh;
-		background: rgb(9, 9, 199);
+		background: rgb(0, 0, 168);
 	}
 	
 .container {
@@ -1482,7 +1482,7 @@ input, select, textarea {
     width: 60px;
     height: 60px;
     background: rgb(9, 9, 199);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4); 
 }
 
 	#header {
