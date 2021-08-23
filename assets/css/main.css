@@ -2077,8 +2077,8 @@ input, select, textarea {
 
 		/* Slideshow container */
 		.slideshow-container {
-		  max-width: 900px;
-		  max-height: 180px;
+		  max-width: 1000px;
+		  max-height: 600px;
 		  position: fixed;
 		  padding-bottom:30%;
 		  padding-left:5px;
