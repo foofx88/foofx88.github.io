@@ -16,10 +16,10 @@ function animateBlock() {
             return anime.random(-600, 600);
         },
         scale: function(){
-            return anime.random(1, 5);
+            return anime.random(1, 6);
         },
         easing: 'linear',
-        duration: 5000,
+        duration: 8000,
         delay: anime.stagger(30),
         complete: animateBlock,
     }) 
