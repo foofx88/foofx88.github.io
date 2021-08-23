@@ -1,12 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
 
-/*
-	Multiverse by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 @-moz-keyframes spinner {
 	0% {
 		-moz-transform: rotate(0deg);
@@ -2083,10 +2077,10 @@ input, select, textarea {
 
 		/* Slideshow container */
 		.slideshow-container {
-		  max-width: 660px;
+		  max-width: 700px;
 		  max-height: 180px;
 		  position: fixed;
-		  padding-bottom:68vh;
+/* 		  padding-bottom:68vh; */
 		  padding-left:5px;
 		}
 		
