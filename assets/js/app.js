@@ -20,7 +20,7 @@ function animateBlock() {
         },
         easing: 'linear',
         duration: 5000,
-        delay: anime.stagger(10),
+        delay: anime.stagger(30),
         complete: animateBlock,
     }) 
 }
