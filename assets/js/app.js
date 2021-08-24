@@ -27,7 +27,7 @@ function animateBlock() {
 
 animateBlock();
 
-
+//For Slideshow (Old)
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -52,4 +52,26 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
 
+}
+
+//For 3D Carousel
+var carousel = $(".carousel"),
+    currdeg  = 0;
+
+$(".next").on("click", { d: "n" }, rotate);
+$(".prev").on("click", { d: "p" }, rotate);
+
+function rotate(e){
+  if(e.data.d=="n"){
+    currdeg = currdeg - 40;
+  }
+  if(e.data.d=="p"){
+    currdeg = currdeg + 40;
+  }
+  carousel.css({
+    "-webkit-transform": "rotateY("+currdeg+"deg)",
+    "-moz-transform": "rotateY("+currdeg+"deg)",
+    "-o-transform": "rotateY("+currdeg+"deg)",
+    "transform": "rotateY("+currdeg+"deg)"
+  });
 }
