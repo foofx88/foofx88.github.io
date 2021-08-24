@@ -1230,7 +1230,7 @@ input, select, textarea {
 		}
 
 		.poptrox-popup .nav-previous,
-		.poptrox-popup .nav-next {
+		.poptrox-popup .nav-{
 			-moz-transition: opacity 0.2s ease-in-out;
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
@@ -2089,33 +2089,106 @@ input, select, textarea {
 		  display: none;
 		  
 		}
-		
-		/* Next & previous buttons */
-		.prev, .next {
-		  cursor: pointer;
+/* CSS styles for 3D carousel */
+		.carousel_container {
+		  margin: 0 auto;
+		  width: 250px;
+		  height: 200px;
+		  position: relative;
+		  perspective: 1000px;
+		}
+
+		.carousel {
+		  height: 100%;
+		  width: 100%;
+		  position: absolute;
+		  transform-style: preserve-3d;
+		  transition: transform 1s;
+		}
+
+		.item {
+		  display: block;
 		  position: absolute;
 		  top: 50%;
-		  width: auto;
-		  margin-top: -22px;
-		  padding: 16px;
-		  color: white;
-		  font-weight: bold;
-		  font-size: 20px;
-		  transition: 0.3s ease;
-		  border-radius: 0 3px 3px 0;
-		  user-select: none;
+		  background: #000;
+		  width: 300px;
+		  height: 200px;
+		  line-height: 200px;
+		  font-size: 16px;
+		  text-align: left;
+		  color: #FFF;
+		  border-width: 3px;
+		  border-style: solid;
+		  border-radius: 10px;
+		  border-color: #00008B;
+		}
+
+		.a {
+		  transform: rotateY(0deg) translateZ(418px);
+		  background: #0080FF;
+
+		}
+		.b {
+		  transform: rotateY(40deg) translateZ(418px);
+		  background: #0080FF;
+
+		}
+		.c {
+		  transform: rotateY(80deg) translateZ(418px);
+		  background: #0080FF;
+
+		}
+		.d {
+		  transform: rotateY(120deg) translateZ(418px);
+		  background: #0080FF;
+
+		}
+		.e {
+		  transform: rotateY(160deg) translateZ(418px);
+		  background: #0080FF;
+
+		} 
+		.f {
+		  transform: rotateY(200deg) translateZ(418px);
+		  background: #0080FF;
+
+		}
+		.g {
+		  transform: rotateY(240deg) translateZ(418px);
+		  background: #0080FF;
+
+		}
+		.h {
+		  transform: rotateY(280deg) translateZ(418px);
+		  background: #0080FF;
+
+		}
+		.i {
+		  transform: rotateY(320deg) translateZ(418px);
+		  background: #0080FF;
+
 		}
 		
-		/* Position the "next button" to the right */
-		.next {
-		  right: 0;
-		  border-radius: 3px 0 0 3px;
+		/* Next & previous buttons */
+		.next, .prev {
+		  color: #444;
+		  position: absolute;
+		  top: 35%;
+		  padding: 1em 2em;
+		  cursor: pointer;
+		  background: #CCC;
+		  border-radius: 5px;
+		  border-top: 1px solid #FFF;
+		  box-shadow: 0 5px 0 #999;
+		  transition: box-shadow 0.1s, top 0.1s;
 		}
-		
-		/* On hover, add a black background color with a little bit see-through */
-		.prev:hover, .next:hover {
-		  background-color: rgba(0,0,0,0.8);
+		.next:hover, .prev:hover { color: #000; }
+		.next:active, .prev:active {
+		  top: 36%;
+		  box-shadow: 0 1px 0 #999;
 		}
+		.next { right: 5em; }
+		.prev { left: 5em; }
 		
 		/* Caption text */
 		.text {
