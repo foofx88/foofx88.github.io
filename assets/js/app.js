@@ -19,7 +19,7 @@ function animateBlock() {
             return anime.random(1, 6);
         },
         easing: 'linear',
-        duration: 8000,
+        duration: 6888,
         delay: anime.stagger(30),
         complete: animateBlock,
     }) 
