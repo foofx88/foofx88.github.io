@@ -19,8 +19,8 @@ function animateBlock() {
             return anime.random(1, 6);
         },
         easing: 'linear',
-        duration: 9000,
-        delay: anime.stagger(60),
+        duration: 8000,
+        delay: anime.stagger(30),
         complete: animateBlock,
     }) 
 }
@@ -44,7 +44,6 @@ function currentSlide(n) {
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
