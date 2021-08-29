@@ -150,6 +150,14 @@ input, select, textarea {
 			min-width: 320px;
 		}
 
+		/* Next & previous buttons */
+		.next, .prev {
+			top: 65%;
+		  }
+		  .next:active, .prev:active {
+			top: 66%;
+		  }
+
 	}
 
 	html {
@@ -292,6 +300,14 @@ input, select, textarea {
 		h6 {
 			font-size: 0.7em;
 		}
+
+				/* Next & previous buttons */
+				.next, .prev {
+					top: 65%;
+				  }
+				  .next:active, .prev:active {
+					top: 66%;
+				  }
 
 	}
 
