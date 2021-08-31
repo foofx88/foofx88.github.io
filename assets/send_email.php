@@ -1,17 +1,13 @@
 <?php
-/**
- * Filter the mail content type.
- */
-function wpdocs_set_html_mail_content_type() {
-    return 'text/html';
-}
-add_filter( 'wp_mail_content_type', 'wpdocs_set_html_mail_content_type' );
+if($_POST["submit"]) {
+$recipient = "fangxuan.foo@gmail.com"; //my email
+$subject = 'Email message from foofx88.github.io';
+$name = $_POST ["name"];
+$email = $_POST["email"];
+$message = $_POST["message"];
 
-$message = '<p>Nombre:' . $_POST['nombre'] . '</p><p>Email:' . $_POST['email'] .'</p><p>...</p>';
-$result = wp_mail('fangxuan.foo@gmail.com', 'New mail', $message);
-if ($result ) {
-    // Do something here
+$mailBody="Name: $name\nEmail: $email\n\n$message";
+mail($recipient, $subject, $mailBody, "From: $name <$email>");
+$thankYou="<p>Thank you for your email, I will be in touch!.</p>";
 }
-// Reset content-type to avoid conflicts -- https://core.trac.wordpress.org/ticket/23578
-remove_filter( 'wp_mail_content_type', 'wpdocs_set_html_mail_content_type' );
 ?>
