@@ -2172,7 +2172,7 @@ input, select, textarea {
 
 		}
 		
-		@media screen and (max-width: 1600px) and (min-width: 1200px) {
+		@media screen and (max-width: 1600px) and (min-width: 1000px) {
 		/* Next & previous buttons */
 		.next, .prev {
 		  color: #444;
@@ -2195,7 +2195,7 @@ input, select, textarea {
 		.prev { left: 5em; }
 		}
 
-		@media screen and (max-width: 1190px) and (min-width: 400px) {
+		@media screen and (max-width: 1000px) and (min-width: 400px) {
 		/* Next & previous buttons */
 		.next, .prev {
 		  color: #444;
