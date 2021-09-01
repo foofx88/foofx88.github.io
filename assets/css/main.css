@@ -152,12 +152,12 @@ input, select, textarea {
 
 		/* Next & previous buttons */
 		.next, .prev {
-			position: fixed;
-			top: 85%;
+			position: absolute;
+			top: 85% !important;
 		  }
 		  .next:active, .prev:active {
-			position: fixed;
-			top: 86%;
+			position: absolute;
+			top: 86% !important;
 		  }
 
 	}
@@ -305,12 +305,12 @@ input, select, textarea {
 
 				/* Next & previous buttons */
 				.next, .prev {
-					position: fixed;
-					top: 85%;
+					position: absolute;
+					top: 85% !important; 
 				  }
 				  .next:active, .prev:active {
-					position: fixed;
-					top: 86%;
+					position: absolute;
+					top: 86% !important;
 				  }
 
 	}
