@@ -2195,12 +2195,12 @@ input, select, textarea {
 		.prev { left: 5em; }
 		}
 
-		@media screen and (max-width: 1000px) and (min-width: 400px) {
+		@media screen and (max-width: 1000px) and (min-width: 300px) {
 		/* Next & previous buttons */
 		.next, .prev {
 		  color: #444;
 		  position: absolute;
-		  top: 85%;
+		  top: 75%;
 		  padding: 1em 2em;
 		  cursor: pointer;
 		  background: #CCC;
@@ -2211,7 +2211,7 @@ input, select, textarea {
 		}
 		.next:hover, .prev:hover { color: #000; }
 		.next:active, .prev:active {
-		  top: 86%;
+		  top: 76%;
 		  box-shadow: 0 1px 0 #999;
 		}
 		.next { right: 5em; }
