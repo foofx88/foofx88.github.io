@@ -2200,7 +2200,7 @@ input, select, textarea {
 		.next, .prev {
 		  color: #444;
 		  position: absolute;
-		  top: 85%;
+		  top: 88%;
 		  padding: 1em 2em;
 		  cursor: pointer;
 		  background: #CCC;
@@ -2211,7 +2211,7 @@ input, select, textarea {
 		}
 		.next:hover, .prev:hover { color: #000; }
 		.next:active, .prev:active {
-		  top: 86%;
+		  top: 89%;
 		  box-shadow: 0 1px 0 #999;
 		}
 		.next { right: 5em; }
