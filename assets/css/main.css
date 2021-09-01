@@ -150,16 +150,6 @@ input, select, textarea {
 			min-width: 320px;
 		}
 
-		/* Next & previous buttons */
-		.next, .prev {
-			position: absolute;
-			top: 85% !important;
-		  }
-		  .next:active, .prev:active {
-			position: absolute;
-			top: 86% !important;
-		  }
-
 	}
 
 	html {
@@ -303,15 +293,7 @@ input, select, textarea {
 			font-size: 0.7em;
 		}
 
-				/* Next & previous buttons */
-				.next, .prev {
-					position: absolute;
-					top: 85% !important; 
-				  }
-				  .next:active, .prev:active {
-					position: absolute;
-					top: 86% !important;
-				  }
+	
 
 	}
 
@@ -2190,6 +2172,7 @@ input, select, textarea {
 
 		}
 		
+		@media screen and (max-width: 1600px) and (min-width: 1200px) {
 		/* Next & previous buttons */
 		.next, .prev {
 		  color: #444;
@@ -2210,6 +2193,32 @@ input, select, textarea {
 		}
 		.next { right: 5em; }
 		.prev { left: 5em; }
+		}
+
+		@media screen and (max-width: 1190px) and (min-width: 400px) {
+		/* Next & previous buttons */
+		.next, .prev {
+		  color: #444;
+		  position: absolute;
+		  top: 85%;
+		  padding: 1em 2em;
+		  cursor: pointer;
+		  background: #CCC;
+		  border-radius: 5px;
+		  border-top: 1px solid #FFF;
+		  box-shadow: 0 5px 0 #999;
+		  transition: box-shadow 0.1s, top 0.1s;
+		}
+		.next:hover, .prev:hover { color: #000; }
+		.next:active, .prev:active {
+		  top: 86%;
+		  box-shadow: 0 1px 0 #999;
+		}
+		.next { right: 5em; }
+		.prev { left: 5em; }
+		}
+
+
 		
 		/* Caption text */
 		.text {
@@ -2223,14 +2232,8 @@ input, select, textarea {
 		  background-color: #0c0077;
 		}
 		
-		/* Number text (1/3 etc) */
-		.numbertext {
-		  color: #9b9cf7;
-		  font-size: 14px;
-		  padding: 8px 12px;
-		  position: absolute;
-		  right: 0;
-		}
+
+		
 		
 		/* Fading animation */
 		.fade {
