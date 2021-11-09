@@ -1461,7 +1461,7 @@ input, select, textarea {
 		justify-content: center;
 		align-items: center;
 		min-height: 100vh;
-		background: rgb(0, 0, 168);
+		background: rgb(37, 63, 99);
 	}
 	
 .container {
@@ -1478,7 +1478,7 @@ input, select, textarea {
     position: absolute;
     width: 60px;
     height: 60px;
-    background: rgb(37, 63, 99);
+    background: rgb(92, 115, 150);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4); 
 }
 
