@@ -53,6 +53,24 @@ function showSlides(n) {
 
 }
 
+//For Keyboard Navigation
+function handleKeyboardNav(e) {
+        if (!e) e = window.event;
+        var kc = e.keyCode;
+        if (kc == 37) plusSlides(-1);
+        if (kc == 39) plusSlides(1);
+    }
+
+    function bindKeyDownListener() {
+        if (document.addEventListener)
+            document.addEventListener("keydown", handleKeyboardNav, false);
+        else if (document.attachEvent)
+            el.attachEvent("onkeydown", handleKeyboardNav);
+    }
+
+    //start the binding
+    bindKeyDownListener();
+
 //For 3D Carousel
 var carousel = $(".carousel"),
     currdeg  = 0;
@@ -74,3 +92,5 @@ function rotate(e){
     "transform": "rotateY("+currdeg+"deg)"
   });
 }
+
+
