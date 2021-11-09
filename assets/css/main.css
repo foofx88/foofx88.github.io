@@ -1065,7 +1065,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 1s ease;
 		transition: transform 1s ease;
 		-webkit-overflow-scrolling: touch;
-		background: rgba(27, 18, 82, 0.7);
+		background: rgba(114, 131, 154, 0.8);
 		bottom: 4em;
 		left: 0;
 		max-height: calc(100vh - 4em);
