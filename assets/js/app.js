@@ -58,7 +58,6 @@ function handleKeyboardNav(e) {
         if (!e) e = window.event;
         var kc = e.keyCode;
         if (kc == 37) plusSlides(-1);
-            console.log("wow!")
         if (kc == 39) plusSlides(1);
     }
 
