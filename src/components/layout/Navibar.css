@@ -1,0 +1,25 @@
+.bg-light {
+    background-color: rgba(38, 97, 180) !important;
+}
+
+.navbar-brand {
+    color:rgb(255, 255, 255) !important;
+}
+
+.navbar-toggler-icon {
+    color:rgb(255, 255, 255) !important;
+}
+
+.offcanvas {
+    background-color: rgba(38, 97, 180, 0.88);
+    color: black;
+}
+
+.icons {
+    margin-right: 30px;
+    transform: scale(1.5);
+}
+
+.icons :hover {
+    color: rgb(255, 255, 255);
+}
