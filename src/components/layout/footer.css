@@ -1,0 +1,25 @@
+.foot {
+    position: relative;
+    height: 50px;
+    text-align: center !important;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.65);
+    background-color: rgba(38, 97, 180) !important;
+
+}
+
+.back-up {
+    background-color: rgba(38, 97, 180) !important;
+    border: 0px;
+    z-index: 99;
+    padding: 0px;
+    margin-top:0px;
+    margin-right: 50px;
+    transform: scale(2);
+    color:rgb(255, 255, 255);
+}
+
+.back-up :hover {
+    cursor: pointer;
+    color: rgb(15, 15, 15);
+}

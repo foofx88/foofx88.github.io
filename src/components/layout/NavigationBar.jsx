@@ -16,19 +16,15 @@ function NaviBar() {
           <Offcanvas.Body>
             <h5>About FX</h5>
             <p>
-              Data Analyst based in Perth, Australia.
-              <br />
-              Always keen to explore more and create wonderful data projects.
+              Data Analyst based in Perth, Australia. Always keen to explore more and create wonderful data projects.
               <br />
               Currently employed by CorpCloud, been involved in several data projects related to performance metrics.
-              <br />
-              This page was created using REACT and Bootstrap to showcase some of the projects I've completed.
               <br />
               I'm always trying new things and pushing myself to be better, so do check-in to look at more projects to come
             </p>
             <BsLinkedin className="icons" onClick={(event) => window.open("https://www.linkedin.com/in/distinctivefx/", "_blank")} />
-            <BsGithub className="icons" onClick={(event) => window.open("https://github.com/foofx88", "_blank")}/>
-            <BsInstagram className="icons" onClick={(event) => window.open("https://github.com/foofx88", "_blank")}/>
+            <BsGithub className="icons" onClick={(event) => window.open("https://github.com/foofx88", "_blank")} />
+            <BsInstagram className="icons" onClick={(event) => window.open("https://github.com/foofx88", "_blank")} />
           </Offcanvas.Body>
         </Navbar.Offcanvas>
       </Container>

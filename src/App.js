@@ -1,16 +1,20 @@
 
+import Footer from "./components/layout/Footer";
 import NaviBar from "./components/layout/NavigationBar";
 import Projects from "./components/pages/Projects";
+
 
 
 function App() {
   return  (
     <div>
     <NaviBar />
-    <div className="content">
+    <div>
     <Projects/>
     </div>
+   <Footer />
     </div>
+
   );
 }
 
