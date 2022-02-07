@@ -36,3 +36,15 @@
 position: relative;
     z-index:1;
 }
+
+.btn-outline-primary {
+    color: rgba(38, 97, 180) !important;
+    border-color: rgba(38, 97, 180) !important;
+}
+
+.btn-outline-primary :hover {
+    color: rgba(255, 255, 255) !important;
+    background-color: rgba(38, 97, 180) !important;
+    border-color: rgba(38, 97, 180) !important;
+}
+
