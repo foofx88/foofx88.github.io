@@ -136,10 +136,7 @@ function Projects() {
                   <Card.Title>New-York State Parks</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">Leaflet, D3, Plotly(JS), ChartJS, HTML</Card.Subtitle>
                   <Card.Text>
-                    Group project on New York State's State Park Attendance. Visualized the State Park data and deployed on Heroku.
-                    <a href="https://newyork-newyork.herokuapp.com/" target="_blank">
-                      Go to the site
-                    </a>
+                    Group project on New York State's State Park Attendance. Visualized the State Park dataset with multiple visual libraries and deployed on Heroku.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -177,16 +174,21 @@ function Projects() {
           </Col>
 
           <Col>
-            {/* <OverlayTrigger key="bottom" placement="bottom" overlay={<Tooltip id={`tooltip-bottom`}>Click to Learn More</Tooltip>}>
-            <Card className="card" onClick={() => setModalShow11(true)}>
-              <Card.Img variant="top" src={process.env.PUBLIC_URL + "/logo.png"} alt="logo" />
+          
+            <Card className="card">
               <Card.Body>
-                <Card.Title>Project</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">Tech Used in Project</Card.Subtitle>
-                <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
+                <Card.Title>Reflections</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">My Journey so far...</Card.Subtitle>
+                <Card.Text>Rebuilding this page allowed me to look back at all the projects and code that I have written.
+                  I have to say, there is always a mixed feeling when I look back at what have been written, from "What have I written?" to "Why did I write it this way?".
+                  </Card.Text>
+                  <Card.Text>
+                  It was good looking back at them regardless as they trigger so many different emotions throughout the learning process.
+                  I enjoyed all the challenges that's been thrown at me so far, being able to figure it out by myself or reach out for help always gives a satisfaction when the end goal is archived.  
+                </Card.Text>
               </Card.Body>
             </Card>
-            </OverlayTrigger> */}
+
           </Col>
           <Col>
             {/* <OverlayTrigger key="bottom" placement="bottom" overlay={<Tooltip id={`tooltip-bottom`}>Click to Learn More</Tooltip>}>

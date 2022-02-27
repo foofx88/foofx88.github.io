@@ -115,7 +115,7 @@ export function ROEModals(props) {
       <Modal.Body>
         <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/reaction-on-elearning/main/static/roeDemo.gif" alt="logo" />
         <p>I've used REACT JS and charts and components from AntD. I've created multiple components and link them up with a Router.
-            Beside the chart components, I've also created a data processing component that pulls the json file from S3 and passes the data to all the other child components.
+            Beside the chart components, I've also created a data processing component that pulls the JSON file from S3 and passes the data to all the other child components.
      There are also components for navigation bar and the layout. </p>
      I've then deployed the site to{" "}
      <a onClick={(event) => window.open("https://foofx88.github.io/reaction-on-elearning/", "_blank")}>
@@ -163,7 +163,10 @@ export function PcpModals(props) {
       </Modal.Header>
       <Modal.Body>
         <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/foofx88.github.io/main/images/p3.gif" alt="logo" />
-        <p>Collaborated with Helen for the final project on the Data BootCamp. </p>
+        <p>Collaborated with Helen for the final project on the Data BootCamp. We scraped real estate data and cross checked with another 2 sites for data integrity.
+            The data was then cleaned, combined into a single dataframe and then loaded onto SQLite. A Flask was created for the front end and API fetch.
+            I've contributed most on the page interface, several Tableau visuals and ensure data integrity as well as ML accuracy. This was an enjoyable project
+            which we've presented more than 10 times during Demo Day.</p>
         You can explore and interact with the charts <a onClick={(event) => window.open("https://cityofperthproperties.herokuapp.com/", "_blank")}>
             <u>here</u>
           </a>
@@ -185,7 +188,11 @@ export function NyModals(props) {
       </Modal.Header>
       <Modal.Body>
         <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/foofx88.github.io/main/images/newyorknewyork.gif" alt="logo" />
-        <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+        <p>2nd Group project for Data BootCamp. I've used Plotly JS, D3 and ChartJs for the data visualisation. 
+            The GeoJSON data was visualised with Leaflet while ChartJS was used to visualise the yearly state parks attendance.</p>
+            You can explore and interact with the charts <a onClick={(event) => window.open("https://newyork-newyork.herokuapp.com/", "_blank")}>
+            <u>here</u>
+          </a>
       </Modal.Body>
       <OverlayTrigger key="bottom" placement="bottom" overlay={<Tooltip id={`tooltip-bottom`}>Go to GitHub</Tooltip>}>
         <Button variant="outline-primary" size="sm" className="button" onClick={(event) => window.open("https://github.com/foofx88/New-York-State-Parks", "_blank")}>
@@ -204,7 +211,12 @@ export function DJModals(props) {
       </Modal.Header>
       <Modal.Body>
         <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/foofx88.github.io/main/images/scatterplot.gif" alt="logo" />
-        <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+        <p>Initial exploration on D3. This project proved to be challenging as there are 3 selection on both X and Y axis.
+            Not only the scatter plot will need to be updated when a different X or Y axis labels are selected, the Axis Labels will need to be updated as well.
+            This was archievable by creating several functions for the render and multiple if else statements for the X and Y axis event listeners. </p>
+            You can explore and interact with the charts <a onClick={(event) => window.open("https://foofx88.github.io/D3_Manipulation-Data_Journalism/", "_blank")}>
+            <u>here</u>
+          </a>
       </Modal.Body>
       <OverlayTrigger key="bottom" placement="bottom" overlay={<Tooltip id={`tooltip-bottom`}>Go to GitHub</Tooltip>}>
         <Button variant="outline-primary" size="sm" className="button" onClick={(event) => window.open("https://github.com/foofx88/D3_Manipulation-Data_Journalism", "_blank")}>
@@ -222,7 +234,8 @@ export function EAModals(props) {
       </Modal.Header>
       <Modal.Body>
         <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/foofx88.github.io/main/images/leafletdemo.gif" alt="logo" />
-        <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+        <p>First attempt with manipulating GeoJSON data obtained from USGS and plotting with Leaflet. 
+            Upon exploring the GeoJSON data, I've identified the data I needed for the plot. I've used 2 Maps from MapBox and it was interesting to see the data once it was visualised on the map. </p>
       </Modal.Body>
       <OverlayTrigger key="bottom" placement="bottom" overlay={<Tooltip id={`tooltip-bottom`}>Go to GitHub</Tooltip>}>
         <Button variant="outline-primary" size="sm" className="button" onClick={(event) => window.open("https://github.com/foofx88/Leaflet-Earthquake_Analysis", "_blank")}>
