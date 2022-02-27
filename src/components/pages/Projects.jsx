@@ -1,11 +1,14 @@
 import { useState } from "react";
-import { Card, Button, Modal } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Col from "react-bootstrap/Col";
+import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
 import "./projects.css";
+import { StoryModals, ObesityModals, CitibikeModals, ETLModals, ROEModals, B3Modals, PcpModals, NyModals, DJModals, EAModals} from "./Modals";
+
+
 
 function Projects() {
   const [modalShow, setModalShow] = useState(false);
@@ -20,199 +23,6 @@ function Projects() {
   const [modalShow10, setModalShow10] = useState(false);
   // const [modalShow11, setModalShow11] = useState(false);
   // const [modalShow12, setModalShow12] = useState(false);
-
-  function StoryModals(props) {
-    return (
-      <Modal {...props} size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
-        <Modal.Header closeButton>
-          <Modal.Title id="contained-modal-title-vcenter">Story Time with FX</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/foofx88.github.io/main/images/cutecharts.gif" alt="logo" />
-          <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-        </Modal.Body>
-
-        <OverlayTrigger key="bottom" placement="bottom" overlay={<Tooltip id={`tooltip-bottom`}>Go to GitHub</Tooltip>}>
-          <Button variant="outline-primary" size="sm" className="button" onClick={(event) => window.open("https://github.com/foofx88/story_time_with_FX", "_blank")}>
-            Explore
-          </Button>
-        </OverlayTrigger>
-      </Modal>
-    );
-  }
-
-  function ObesityModals(props) {
-    return (
-      <Modal {...props} size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
-        <Modal.Header closeButton>
-          <Modal.Title id="contained-modal-title-vcenter">Obesity Rate - USA</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/foofx88.github.io/main/images/po2.gif" alt="logo" />
-          <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-        </Modal.Body>
-
-        <OverlayTrigger key="bottom" placement="bottom" overlay={<Tooltip id={`tooltip-bottom`}>Go to GitHub</Tooltip>}>
-          <Button variant="outline-primary" size="sm" className="button" onClick={(event) => window.open("https://github.com/foofx88/ObesityRate-USA", "_blank")}>
-            Explore
-          </Button>
-        </OverlayTrigger>
-      </Modal>
-    );
-  }
-
-  function CitibikeModals(props) {
-    return (
-      <Modal {...props} size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
-        <Modal.Header closeButton>
-          <Modal.Title id="contained-modal-title-vcenter">Obesity Rate - USA</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/Tableau_CitiBike/main/snips/story.gif" alt="logo" />
-          <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-        </Modal.Body>
-
-        <OverlayTrigger key="bottom" placement="bottom" overlay={<Tooltip id={`tooltip-bottom`}>Go to GitHub</Tooltip>}>
-          <Button variant="outline-primary" size="sm" className="button" onClick={(event) => window.open("https://github.com/foofx88/Tableau_CitiBike", "_blank")}>
-            Explore
-          </Button>
-        </OverlayTrigger>
-      </Modal>
-    );
-  }
-
-  function ETLModals(props) {
-    return (
-      <Modal {...props} size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
-        <Modal.Header closeButton>
-          <Modal.Title id="contained-modal-title-vcenter">ETL - Financing Used Cars</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/foofx88.github.io/main/images/ETLproject.gif" alt="logo" />
-          <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-        </Modal.Body>
-        <OverlayTrigger key="bottom" placement="bottom" overlay={<Tooltip id={`tooltip-bottom`}>Go to GitHub</Tooltip>}>
-                    <Button variant="outline-primary" size="sm" className="button" onClick={(event) => window.open("https://github.com/foofx88/ETL-Financing-Used-Cars", "_blank")}>
-                      Explore
-                    </Button>
-                  </OverlayTrigger>
-      </Modal>
-    );
-  }
-
-  function ROEModals(props) {
-    return (
-      <Modal {...props} size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
-        <Modal.Header closeButton>
-          <Modal.Title id="contained-modal-title-vcenter">Reaction on E-learning</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/reaction-on-elearning/main/static/roeDemo.gif" alt="logo" />
-          <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-        </Modal.Body>
-        <OverlayTrigger key="bottom" placement="bottom" overlay={<Tooltip id={`tooltip-bottom`}>Go to GitHub</Tooltip>}>
-                    <Button variant="outline-primary" size="sm" className="button" onClick={(event) => window.open("https://github.com/foofx88/reaction-on-elearning/tree/stashed", "_blank")}>
-                      Explore
-                    </Button>
-                  </OverlayTrigger>
-      </Modal>
-    );
-  }
-
-  function B3Modals(props) {
-    return (
-      <Modal {...props} size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
-        <Modal.Header closeButton>
-          <Modal.Title id="contained-modal-title-vcenter">Belly Button Biodiversity</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/foofx88.github.io/main/images/plotly.gif" alt="logo" />
-          <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-        </Modal.Body>
-        <OverlayTrigger key="bottom" placement="bottom" overlay={<Tooltip id={`tooltip-bottom`}>Go to GitHub</Tooltip>}>
-                    <Button variant="outline-primary" size="sm" className="button" onClick={(event) => window.open("https://github.com/foofx88/Plotly-JS-BellyButtonBiodiversity", "_blank")}>
-                      Explore
-                    </Button>
-                  </OverlayTrigger>
-      </Modal>
-    );
-  }
-
-  function PcpModals(props) {
-    return (
-      <Modal {...props} size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
-        <Modal.Header closeButton>
-          <Modal.Title id="contained-modal-title-vcenter">Perth City Properties</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/foofx88.github.io/main/images/p3.gif" alt="logo" />
-          <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-        </Modal.Body>
-        <OverlayTrigger key="bottom" placement="bottom" overlay={<Tooltip id={`tooltip-bottom`}>Go to GitHub</Tooltip>}>
-                    <Button variant="outline-primary" size="sm" className="button" onClick={(event) => window.open("https://github.com/foofx88/Perth-City-Properties", "_blank")}>
-                      Explore
-                    </Button>
-                  </OverlayTrigger>
-      </Modal>
-    );
-  }
-
-  function NyModals(props) {
-    return (
-      <Modal {...props} size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
-        <Modal.Header closeButton>
-          <Modal.Title id="contained-modal-title-vcenter">New-York State Parks</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/foofx88.github.io/main/images/newyorknewyork.gif" alt="logo" />
-          <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-        </Modal.Body>
-        <OverlayTrigger key="bottom" placement="bottom" overlay={<Tooltip id={`tooltip-bottom`}>Go to GitHub</Tooltip>}>
-                    <Button variant="outline-primary" size="sm" className="button" onClick={(event) => window.open("https://github.com/foofx88/New-York-State-Parks", "_blank")}>
-                      Explore
-                    </Button>
-                  </OverlayTrigger>
-      </Modal>
-    );
-  }
-
-  function DJModals(props) {
-    return (
-      <Modal {...props} size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
-        <Modal.Header closeButton>
-          <Modal.Title id="contained-modal-title-vcenter">Data Journalism</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/foofx88.github.io/main/images/scatterplot.gif" alt="logo" />
-          <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-        </Modal.Body>
-        <OverlayTrigger key="bottom" placement="bottom" overlay={<Tooltip id={`tooltip-bottom`}>Go to GitHub</Tooltip>}>
-                    <Button variant="outline-primary" size="sm" className="button" onClick={(event) => window.open("https://github.com/foofx88/D3_Manipulation-Data_Journalism", "_blank")}>
-                      Explore
-                    </Button>
-                  </OverlayTrigger>
-      </Modal>
-    );
-  }
-  function EAModals(props) {
-    return (
-      <Modal {...props} size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
-        <Modal.Header closeButton>
-          <Modal.Title id="contained-modal-title-vcenter">Earthquake Analysis</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/foofx88.github.io/main/images/leafletdemo.gif" alt="logo" />
-          <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-        </Modal.Body>
-        <OverlayTrigger key="bottom" placement="bottom" overlay={<Tooltip id={`tooltip-bottom`}>Go to GitHub</Tooltip>}>
-  <Button variant="outline-primary" size="sm" className="button" onClick={(event) => window.open("https://github.com/foofx88/Leaflet-Earthquake_Analysis", "_blank")}>
-    Explore
-  </Button>
-  </OverlayTrigger>
-      </Modal>
-    );
-  }
-
 
 
   return (
@@ -311,10 +121,7 @@ function Projects() {
                   <Card.Title>Perth City Properties</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">Python, ML, SQlite, Tableau </Card.Subtitle>
                   <Card.Text>
-                    Collaboration with Helen for the final project on Data BootCamp. Used splinter to scrape data, pandas to clean and Tableau to visualised the data. Prepared the data for ML. We used Lasso Linear Regression model as it provided the ideal accuracy.
-                    <a href="https://cityofperthproperties.herokuapp.com/" target="_blank">
-                      Go to the site
-                    </a>
+                   Used splinter to scrape data, pandas to clean and Tableau to visualised the data. Prepared the data for ML. We used Lasso Linear Regression model as it provided the ideal accuracy.
                   </Card.Text>
                 </Card.Body>
               </Card>
