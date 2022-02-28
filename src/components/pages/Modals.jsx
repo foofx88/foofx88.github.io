@@ -9,7 +9,7 @@ export function StoryModals(props) {
         <Modal.Title id="contained-modal-title-vcenter">Story Time with FX</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/foofx88.github.io/main/images/cutecharts.gif" alt="logo" />
+        <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/foofx88.github.io/archived/images/cutecharts.gif" alt="logo" />
         <p>
           I came across the{" "}
           <a onClick={(event) => window.open("https://github.com/cutecharts/cutecharts.py", "_blank")}>
@@ -44,7 +44,7 @@ export function ObesityModals(props) {
         <Modal.Title id="contained-modal-title-vcenter">Obesity Rate - USA</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/foofx88.github.io/main/images/po2.gif" alt="logo" />
+        <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/foofx88.github.io/archived/images/po2.gif" alt="logo" />
         <p>I wanted to recreate the first project from the Data BootCamp to add more elements to the project. 
             The first project lacks interactivity and had more potential in the dataset. 
             Hence, I've revisited the dataset and used Power BI to create the visuals.
@@ -64,7 +64,7 @@ export function CitibikeModals(props) {
   return (
     <Modal {...props} size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
       <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">Obesity Rate - USA</Modal.Title>
+        <Modal.Title id="contained-modal-title-vcenter">CitiBike - Tableau</Modal.Title>
       </Modal.Header>
       <Modal.Body>
         <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/Tableau_CitiBike/main/snips/story.gif" alt="logo" />
@@ -90,7 +90,7 @@ export function ETLModals(props) {
         <Modal.Title id="contained-modal-title-vcenter">ETL - Financing Used Cars</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/foofx88.github.io/main/images/ETLproject.gif" alt="logo" />
+        <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/foofx88.github.io/archived/images/ETLproject.gif" alt="logo" />
         <p>For this project, I've teamed up with <a onClick={(event) => window.open("https://github.com/helenamin", "_blank")}>
             <u>Helen</u>
           </a> for the first time. 
@@ -138,7 +138,7 @@ export function B3Modals(props) {
         <Modal.Title id="contained-modal-title-vcenter">Belly Button Biodiversity</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/foofx88.github.io/main/images/plotly.gif" alt="logo" />
+        <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/foofx88.github.io/archived/images/plotly.gif" alt="logo" />
         <p>Initial exploration with Plotly JS to create interactive charts. JSON file was the presented to onto the page with D3.
             The dashboard is made up of multiple Javascript functions that renders the Visualisation and the chart changes whenever a different Test Subject ID is selected. 
         </p>
@@ -162,7 +162,7 @@ export function PcpModals(props) {
         <Modal.Title id="contained-modal-title-vcenter">Perth City Properties</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/foofx88.github.io/main/images/p3.gif" alt="logo" />
+        <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/foofx88.github.io/archived/images/p3.gif" alt="logo" />
         <p>Collaborated with Helen for the final project on the Data BootCamp. We scraped real estate data and cross checked with another 2 sites for data integrity.
             The data was then cleaned, combined into a single dataframe and then loaded onto SQLite. A Flask was created for the front end and API fetch.
             I've contributed most on the page interface, several Tableau visuals and ensure data integrity as well as ML accuracy. This was an enjoyable project
@@ -187,7 +187,7 @@ export function NyModals(props) {
         <Modal.Title id="contained-modal-title-vcenter">New-York State Parks</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/foofx88.github.io/main/images/newyorknewyork.gif" alt="logo" />
+        <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/foofx88.github.io/archived/images/newyorknewyork.gif" alt="logo" />
         <p>2nd Group project for Data BootCamp. I've used Plotly JS, D3 and ChartJs for the data visualisation. 
             The GeoJSON data was visualised with Leaflet while ChartJS was used to visualise the yearly state parks attendance.</p>
             You can explore and interact with the charts <a onClick={(event) => window.open("https://newyork-newyork.herokuapp.com/", "_blank")}>
@@ -210,7 +210,7 @@ export function DJModals(props) {
         <Modal.Title id="contained-modal-title-vcenter">Data Journalism</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/foofx88.github.io/main/images/scatterplot.gif" alt="logo" />
+        <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/foofx88.github.io/archived/images/scatterplot.gif" alt="logo" />
         <p>Initial exploration on D3. This project proved to be challenging as there are 3 selection on both X and Y axis.
             Not only the scatter plot will need to be updated when a different X or Y axis labels are selected, the Axis Labels will need to be updated as well.
             This was archievable by creating several functions for the render and multiple if else statements for the X and Y axis event listeners. </p>
@@ -233,7 +233,7 @@ export function EAModals(props) {
         <Modal.Title id="contained-modal-title-vcenter">Earthquake Analysis</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/foofx88.github.io/main/images/leafletdemo.gif" alt="logo" />
+        <img className="img-fluid mx-auto d-block" src="https://raw.githubusercontent.com/foofx88/foofx88.github.io/archived/images/leafletdemo.gif" alt="logo" />
         <p>First attempt with manipulating GeoJSON data obtained from USGS and plotting with Leaflet. 
             Upon exploring the GeoJSON data, I've identified the data I needed for the plot. I've used 2 Maps from MapBox and it was interesting to see the data once it was visualised on the map. </p>
       </Modal.Body>
